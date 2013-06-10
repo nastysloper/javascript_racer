@@ -1,0 +1,68 @@
+body {
+  font-family: 'Fugaz One';
+  background: #FFF3EA;
+}
+
+h1 {
+  font-weight: 400;
+  text-align: center;
+  color: #EA6336;
+  font-size: 4em;
+}
+
+#container {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+#track {
+  background-color: #dbe057;
+  width: 1100px;
+  margin: 0 auto;
+  min-height: 350px;
+  padding-top: 130px;
+  border-radius: 50px;
+}
+
+#playerone, #playertwo {
+  background-color: #FFF3EA;
+  width: 950px;
+  min-height: 70px;
+  margin: 0 auto;
+  padding-top: 8px;
+  margin-bottom: 50px;
+  border-top: 5px dashed #EA6336;
+  border-bottom: 5px dashed #EA6336;
+}
+
+.pacman {
+  position: relative;
+  left: 0px;
+  z-index: 1;
+}
+
+.batman {
+  position: relative;
+  left: 0px;
+  z-index: 1;
+}
+
+.finish {
+  width: 100px;
+  float: right;
+  position: relative;
+  top: -78px;
+  left: 70px;
+}
+
+.black {
+  width: 20px;
+  height: 14px;
+  background: #000000;
+}
+
+.white {
+  width: 20px;
+  height: 14px;
+  background: #FFF3EA;
+}
